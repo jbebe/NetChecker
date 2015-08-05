@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rsrc/logo.svg</file>
+        <file>rsrc/logo.png</file>
+        <file>rsrc/readme_en.html</file>
+        <file>rsrc/readme_hu.html</file>
+        <file>rsrc/flag_eng.gif</file>
+        <file>rsrc/flag_hun.gif</file>
+    </qresource>
+</RCC>
