@@ -1,10 +1,11 @@
 <RCC>
     <qresource prefix="/">
-        <file>rsrc/logo.svg</file>
-        <file>rsrc/logo.png</file>
-        <file>rsrc/readme_en.html</file>
-        <file>rsrc/readme_hu.html</file>
-        <file>rsrc/flag_eng.gif</file>
-        <file>rsrc/flag_hun.gif</file>
+        <file>res/app.hqx</file>
+        <file>res/app.ico</file>
+        <file>res/flag_eng.gif</file>
+        <file>res/flag_hun.gif</file>
+        <file>res/logo.svg</file>
+        <file>res/readme_en.html</file>
+        <file>res/readme_hu.html</file>
     </qresource>
 </RCC>

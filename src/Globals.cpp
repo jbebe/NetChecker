@@ -1,0 +1,36 @@
+#include <include/Globals.hpp>
+
+#ifndef GLOBALS_CPP
+#define GLOBALS_CPP
+
+QStringList DEF_GATEWAYS;
+QStringList OUTER_DEST;
+QStringList NS_ADDRS;
+QString DNS_ADDR;
+
+void INIT_GLOBALS(){
+	DEF_GATEWAYS << "152.66.176.254";
+	DEF_GATEWAYS << "152.66.178.254";
+	DEF_GATEWAYS << "152.66.179.254";
+	DEF_GATEWAYS << "152.66.180.254";
+	DEF_GATEWAYS << "152.66.181.254";
+	DEF_GATEWAYS << "152.66.182.254";
+	DEF_GATEWAYS << "152.66.183.254";
+	DEF_GATEWAYS << "152.66.210.254";
+	DEF_GATEWAYS << "10.66.255.254";
+
+	OUTER_DEST << "152.66.0.1";
+	OUTER_DEST << "152.66.0.15";
+	OUTER_DEST << "8.8.8.8";
+	OUTER_DEST << "8.8.4.4";
+
+	NS_ADDRS << "152.66.208.1";
+	NS_ADDRS << "152.66.208.7";
+	NS_ADDRS << "8.8.8.8";
+	NS_ADDRS << "8.8.4.4";
+
+	DNS_ADDR = "sch.bme.hu";
+}
+
+#endif // GLOBALS_CPP
+
